@@ -1,0 +1,460 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    display: block;
+    background-color: #F5F0E6;
+    scroll-behavior: smooth;
+}
+
+
+/*--------------------------------------------
+            barra de navegacao
+--------------------------------------------*/
+
+
+.veg {
+    background-color: #C68B59;
+    display: flex;
+    border-radius: 5px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+
+}
+.caf1 {
+    width: 100px;
+}
+nav {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    position: relative;
+    left: 200px;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+}
+nav :hover {
+    color: #4E342E;
+    border: solid ;
+    border-radius: 10px;
+    transform: translateY(-7px);
+}
+
+
+/*--------------------------------------------
+                inicio
+--------------------------------------------*/
+
+
+header {
+    background-color: #4E342E;
+    margin: 0px;
+    padding-top: 120px;
+}
+.ti1 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.pa1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    margin: 100px;
+}
+.disf {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 90px;
+
+}
+a {
+    border: solid #C68B59;
+    border-radius: 10px;
+}
+
+.disf :hover {
+    background-color: #C68B59;
+    border-radius: 10px;
+    transform: translateY(-7px);
+
+}
+
+
+/*--------------------------------------------
+                Sobre
+--------------------------------------------*/
+
+
+.sobr {
+    background-color: #6D4C41;
+    padding: 100px 0;
+}
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.caf2 {
+    width: 400px;
+    border-radius: 50px;
+}
+.sobre-texto {
+    max-width: 500px;
+}
+.sob {
+    font-size: 55px;
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+}
+.bre {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+/*--------------------------------------------
+        Cardapio parte do cafe
+--------------------------------------------*/
+
+main {
+    background-color: #4E342E;
+    padding-bottom: 80px;
+}
+.coff {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+    font-size: 40px;
+}
+.cafes-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 60px;
+}
+.cafe-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caff{
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.cafi {
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 5px;
+    border: solid #C68B59;
+    border-radius: 10px;
+    background-color: #C68B59;
+}
+.cap {
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.capi {
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val2 {
+    color: #FFFFFF;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 5px;
+    border: solid #C68B59;
+    border-radius: 10px;
+    background-color: #C68B59;
+}
+.lat{
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.lati {
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val3 {
+    color: #FFFFFF;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 5px;
+    border: solid #C68B59;
+    border-radius: 10px;
+    background-color: #C68B59;
+}
+
+
+/*--------------------------------------------
+        Cardapio parte do doces
+--------------------------------------------*/
+
+
+.swee {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+    font-size: 40px;
+}
+.sweet-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-top: 60px;
+}
+.sweet-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pudin {
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.puid {
+    width: 450px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val4{
+    color: #FFFFFF;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 5px;
+    border: solid #C68B59;
+    border-radius: 10px;
+    background-color: #C68B59;
+}
+.cro {
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.crois {
+    width: 420px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val5{
+    color: #FFFFFF;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 5px;
+    border: solid #C68B59;
+    border-radius: 10px;
+    background-color: #C68B59;
+}
+.coo {
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.cho {
+    width: 490px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.val6{
+    color: #FFFFFF;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 5px;
+    border: solid #C68B59;
+    border-radius: 10px;
+    background-color: #C68B59;
+}
+
+
+
+/*--------------------------------------------
+                avaliacoes
+--------------------------------------------*/
+
+
+
+.noa {
+    background-color: #6D4C41;
+    padding-bottom: 80px;
+}
+.avali {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+    font-size: 40px;
+}
+.avaliacao-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 350px;
+    margin-top: 60px;
+}
+.avalia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil {
+    width: 120px;
+    border-radius: 90px;
+    margin-top: 20px;
+}
+.ava1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+.ava2 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+.ava3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+.av1 {
+    text-align: center;
+    font-size: 17px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px;
+}
+.av2 {
+    text-align: center;
+    font-size: 17px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px;
+}
+.av3 {
+    text-align: center;
+    font-size: 17px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+/*--------------------------------------------
+                Contato
+--------------------------------------------*/
+
+.conta {
+    background-color: #4E342E;
+    padding-top: 1px;
+}
+
+.tato {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+}
+
+.yami {
+    background-color: #C68B59;
+    border-radius: 20px;
+    width: 700px;
+    padding: 30px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    width: 250px;
+    text-align: center;
+}
+
+.cafei {
+    width: 250px;
+}
+
+.campos {
+    flex: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input {
+    display: flex;
+    height: 25px;
+    border-radius: 5px;
+    border: solid black 2px;
+    width: 400px;
+
+}
+label {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+button {
+    margin: 20px;
+    position: relative;
+    left: 90px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid black 2px;
+    cursor: pointer;
+}
+h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*--------------------------------------------
+                rodape
+--------------------------------------------*/
+
+
+footer {
+    background-color: #6d443b;
+    padding: 9px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
